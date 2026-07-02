@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8037552480327835725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SoundEffects/BubblesSampling
+  m_EditorClassIdentifier: 
+  Path: event:/SoundEffects/BubblesSampling
+  Guid:
+    Data1: 456570684
+    Data2: 1272358807
+    Data3: -1578186597
+    Data4: 1840013486
+  Banks:
+  - {fileID: 3061135860762791500}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5921306890750086823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/AmbienceSoundtrack
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/AmbienceSoundtrack
+  Guid:
+    Data1: 1972327633
+    Data2: 1187746005
+    Data3: -1570363988
+    Data4: -1942745734
+  Banks:
+  - {fileID: 1374657839999917519}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2858933596046771437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Desktop/FMODProjects/project_birdbox/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639185956859431327
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 811955470111820137}
+  - {fileID: 1374657839999917519}
+  - {fileID: -2858933596046771437}
+  - {fileID: 3061135860762791500}
+  EditorEvents:
+  - {fileID: -5921306890750086823}
+  - {fileID: -8037552480327835725}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -2858933596046771437}
+  StringsBanks:
+  - {fileID: 811955470111820137}
+  cacheVersion: 131860
+  cacheTime: 639185956860598490
+  SerializableEventsDict:
+  - key: event:/Ambient/AmbienceSoundtrack
+    index: 0
+  - key: event:/SoundEffects/BubblesSampling
+    index: 1
+--- !u!114 &811955470111820137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Desktop/FMODProjects/project_birdbox/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639185956859451332
+  FileSizes:
+  - Name: Desktop
+    Value: 952
+  Exists: 1
+--- !u!114 &1374657839999917519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Desktop/FMODProjects/project_birdbox/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 639185956859481768
+  FileSizes:
+  - Name: Desktop
+    Value: 1526
+  Exists: 1
+--- !u!114 &3061135860762791500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SoundEffects.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Desktop/FMODProjects/project_birdbox/Build/Desktop/SoundEffects.bank
+  Name: SoundEffects
+  StudioPath: bank:/SoundEffects
+  lastModified: 639185956860598490
+  FileSizes:
+  - Name: Desktop
+    Value: 62784
+  Exists: 1
