@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: -1578186597
     Data4: 1840013486
   Banks:
-  - {fileID: 3061135860762791500}
+  - {fileID: 562014373332601350}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -46,7 +46,7 @@ MonoBehaviour:
     Data3: -1570363988
     Data4: -1942745734
   Banks:
-  - {fileID: 1374657839999917519}
+  - {fileID: 4848994442455279026}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -54,7 +54,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2858933596046771437
+--- !u!114 &-2367885091304730611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,13 +66,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../../Desktop/FMODProjects/project_birdbox/Build/Desktop/Master.bank
+  Path: Assets/Audio/Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639185956859431327
-  FileSizes:
-  - Name: Desktop
-    Value: 1074
+  lastModified: 639185969875991332
+  FileSizes: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -87,66 +85,26 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 811955470111820137}
-  - {fileID: 1374657839999917519}
-  - {fileID: -2858933596046771437}
-  - {fileID: 3061135860762791500}
+  - {fileID: 4647828595060529396}
+  - {fileID: 4848994442455279026}
+  - {fileID: -2367885091304730611}
+  - {fileID: 562014373332601350}
   EditorEvents:
   - {fileID: -5921306890750086823}
   - {fileID: -8037552480327835725}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2858933596046771437}
+  - {fileID: -2367885091304730611}
   StringsBanks:
-  - {fileID: 811955470111820137}
+  - {fileID: 4647828595060529396}
   cacheVersion: 131860
-  cacheTime: 639185956860598490
+  cacheTime: 639185969876022127
   SerializableEventsDict:
   - key: event:/Ambient/AmbienceSoundtrack
     index: 0
   - key: event:/SoundEffects/BubblesSampling
     index: 1
---- !u!114 &811955470111820137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Desktop/FMODProjects/project_birdbox/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 639185956859451332
-  FileSizes:
-  - Name: Desktop
-    Value: 952
-  Exists: 1
---- !u!114 &1374657839999917519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Desktop/FMODProjects/project_birdbox/Build/Desktop/Ambience.bank
-  Name: Ambience
-  StudioPath: bank:/Ambience
-  lastModified: 639185956859481768
-  FileSizes:
-  - Name: Desktop
-    Value: 1526
-  Exists: 1
---- !u!114 &3061135860762791500
+--- !u!114 &562014373332601350
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,11 +116,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/SoundEffects.bank
   m_EditorClassIdentifier: 
-  Path: ../../Desktop/FMODProjects/project_birdbox/Build/Desktop/SoundEffects.bank
+  Path: Assets/Audio/Banks/Desktop/SoundEffects.bank
   Name: SoundEffects
   StudioPath: bank:/SoundEffects
-  lastModified: 639185956860598490
+  lastModified: 639185969876022127
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4647828595060529396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639185969876001390
   FileSizes:
-  - Name: Desktop
-    Value: 62784
+  - Name: 
+    Value: 952
+  Exists: 1
+--- !u!114 &4848994442455279026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Banks/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 639185969875980837
+  FileSizes: []
   Exists: 1

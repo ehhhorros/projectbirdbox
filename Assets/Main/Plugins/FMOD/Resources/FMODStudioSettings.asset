@@ -451,10 +451,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
-  sourceProjectPath: ../../Desktop/FMODProjects/project_birdbox/project_birdbox.fspro
-  sourceBankPath: ../../Desktop/FMODProjects/project_birdbox/Build
+  HasSourceProject: 0
+  HasPlatforms: 0
+  sourceProjectPath: .fspro
+  sourceBankPath: Assets/Audio/Banks/Desktop
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -493,21 +493,21 @@ MonoBehaviour:
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131860
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   LastEventReferenceScanVersion: 131860
   Platforms:
-  - {fileID: -6602363060073421434}
-  - {fileID: 8099661264615689689}
+  - {fileID: -7933043959129792571}
   - {fileID: -7504757896659710925}
+  - {fileID: -6602363060073421434}
   - {fileID: -5128177838106056316}
-  - {fileID: 2344387281119090494}
-  - {fileID: 7406238494862835745}
-  - {fileID: 6919693415986089493}
-  - {fileID: 1815519443449630775}
   - {fileID: -4614636794953920863}
   - {fileID: -296026743558824264}
+  - {fileID: 1815519443449630775}
+  - {fileID: 2344387281119090494}
+  - {fileID: 6919693415986089493}
+  - {fileID: 7406238494862835745}
   - {fileID: 7649220908700397906}
-  - {fileID: -7933043959129792571}
+  - {fileID: 8099661264615689689}
   MigratedPlatforms: 0a00000000000000150000000b00000009000000050000001200000008000000060000000c0000000200000001000000
 --- !u!114 &1815519443449630775
 MonoBehaviour:
@@ -944,16 +944,16 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
+  - b7716510a1f36934c87976f3a81dbf3d
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
   - c88d16e5272a4e241b0ef0ac2e53b73d
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - fd7c55dab0fce234b8c25f6ffca523c1
-  - 52eb9df5db46521439908db3a29a1bbb
   - 0f8eb3f400726694eb47beb1a9f94ce8
   - 46fbfdf3fc43db0458918377fd40293e
+  - 52eb9df5db46521439908db3a29a1bbb
+  - 2c5177b11d81d824dbb064f9ac8527da
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - e7a046c753c3c3d4aacc91f6597f310d
   - de700ef3f37a49b58a57ae3addf01ad9
-  - b7716510a1f36934c87976f3a81dbf3d
   codecChannels:
     Value: []
     HasValue: 0
